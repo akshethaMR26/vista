@@ -1,0 +1,107 @@
+
+#nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+    
+
+    
+    
+
+}
+
+
+#nav a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: #59CDE9;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+#nav a:hover{
+    background-color: rgb(20,140,237);
+    color: white;
+    
+
+}
+
+#banner{
+    width: 85vw;
+    height: 50vh;
+    margin: auto;
+    background-image: url("https://ik.imagekit.io/akshetha26/vista/bg-pattern.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+
+
+}
+#banner h1,#banner h2,#banner p{
+    color: white;
+    
+}
+
+
+#maincontainer{
+    width: 85vw;
+    height: 100vh;
+    background: linear-gradient(to right, #59CDE9,#0A2A88);
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.innerbox{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(250, 250, 250);
+    border: 5px;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+
+    text-align: center;
+
+
+
+}
+.innerbox:hover{
+     background-color: rgb(147, 212, 221);
+    border: 5px;
+    color: rgb(12, 4, 98);
+    border: 5px;
+    border-color: aliceblue;
+    border-style: solid;
+
+}
+#ab{
+     width: 85vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+   
+
+}
+ #ab p{
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
