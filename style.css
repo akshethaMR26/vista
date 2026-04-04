@@ -31,14 +31,15 @@
 }
 
 #banner{
-    width: 85vw;
-    height: 50vh;
+    width: 70vw;
+    height: 55vh;
     margin: auto;
     background-image: url("https://ik.imagekit.io/akshetha26/vista/bg-pattern.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 
     
 
@@ -53,29 +54,30 @@
 
 
 #maincontainer{
-    width: 85vw;
+    width: 70vw;
     height: 100vh;
     background: linear-gradient(to right, #59CDE9,#0A2A88);
-    
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
 
 }
 .innerbox{
     width: 400px;
-    height: 350px;
+    height: 450px;
     background-color: rgb(250, 250, 250);
     border: 5px;
     color: rgb(0, 0, 0);
+    font-size: 20px;
     border: 5px;
     border-color: rgb(0, 0, 0);
     border-style: solid;
-
     text-align: center;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -90,7 +92,7 @@
 
 }
 #ab{
-     width: 85vw;
+     width: 70vw;
     height: 100vh;
     margin: auto;
     text-align: center;
@@ -102,6 +104,178 @@
  #ab p{
     text-align: center;
     font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ob{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    text-align:left;
+    gap: 10px;
+    align-items: center;
+
+
+    
+}
+.contact{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+.tndouter{
+    width: 70vw;
+    height: 60vh;
+
+    margin: auto;
+    display: flex;
+
+ gap: 100px;
+ align-items: center;
+   
+    
+    
+    
+
+}
+.form{
+    width: 40vw;
+    height: 60vh;
+    color: aliceblue;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+     
+
+
+}
+.icon{
+    width: 25vw;
+    height: 60vh;
+   
+     
+
+}
+.icons{
+    width: 23vw;
+    height: 4.5vh;
+    background-color: rgb(0,131,194);
+    color: rgb(255, 255, 255);
+
+}
+.icons img{
+    width: 2.5vw;
+    height: 2.5vh;
+    float: left;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.pre{
+    width: 23vw;
+    height: 17vh;
+    background-color: gray;
+    font-size: 20px;
+    color: aliceblue;
+    
+
+}
+input{
+    width: 35vw;
+    height: 5vh;
+    text-align: left;
+    font-size: 24px;
+}
+textarea{
+    width: 35vw;
+    height: 14vh;
+}
+.send{
+    background-color: grey;
+    text-align: center;
+
+}
+.have{
+    width: 35vw; 
+    height: 5vh;
+     background-color: rgb(97,206,112);
+    
+       
+}
+.portfoliomaincontainer{
+    width: 70vw;
+    height: 150vh;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.headd{
+    width: 70vw;
+    height: 5vh;
+    text-align: center;
+    color: #0A2A88;
+
+}
+.pinner{
+    width: 650px;
+    height: 500px;
+    border: 3px solid gray;
+    
+    
+    
+   
+}
+.pinner img{
+    width: 650px;
+    height: 500px;
+
+}
+.lite{
+    width: 70w;
+    height: 5vh;
+    text-align: center;
+    font-size: 24px;
+    color: #0A2A88;
+
+}
+.servicemaimcontainer{
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.innerboxx{
+  width: 400px;
+    height: 350px;
+    background-color: rgb(250, 250, 250);
+    border: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 5px;
+    border-color:  rgb(0,131,194);
+    border-style: solid;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
